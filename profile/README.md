@@ -1,5 +1,5 @@
 
-comment: <h1 align="center">Atforestry</h1>
+[comment]: <h1 align="center">Atforestry</h1>
 
 <p align="center">
     <img src="./assets/New_Atforestry_logo.png" alt="isolated" width="600"/>
