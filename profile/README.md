@@ -1,7 +1,7 @@
 <h1 align="center">Atforestry</h1>
 
 <p align="center">
-    <img src="./assets/Atforestry_logo.JPG" alt="isolated" width="600"/>
+    <img src="./assets/New_Atforestry_logo.png" alt="isolated" width="600"/>
 </p>
 
 > ## Monitoring deforestation using satellite images and computer vision models. 
