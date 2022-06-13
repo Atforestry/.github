@@ -56,7 +56,7 @@ The implementation of the model can be find in the [notebooks](/notebooks/) fold
 
 Exploiting FastAPI capabilities, we have set an initial [API](./api/) which runs an inference service to predict cover land types, using a preliminary model trained with just one epoch run:
 
-![](./assets/cover_api_demo.gif)
+![](./assets/atforestry_app_gif.gif)
 
 ## To Be Done
 
