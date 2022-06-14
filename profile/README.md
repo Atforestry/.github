@@ -41,7 +41,7 @@ To dive into the type of data that we are using, you can check out the [explorat
 
 As explained earlier, we are leveraging a pre-trained VGG16 model which consists of 16 convolutional layers with 3x3 convolutions, padding and max-pooling layers of 2x2 filters of stride 2, ending with 2 fully connected layers and a softmax output. The network has almost 138 Million parameters. 
 
-The implementation of the model can be find in the [notebooks](/notebooks/) folder. Please note that this is still a work in progress!
+The implementation of the model can be find in the [notebooks](/notebooks/) folder.
 
 <p align="center">
     <img src="./assets/VGG16_architecture.JPG" alt="isolated" width="500"/>
@@ -51,10 +51,9 @@ The implementation of the model can be find in the [notebooks](/notebooks/) fold
 
 
 
-
 ## Web App
 
-Our application is being served in here http://www.atforestry.com/:
+Our application is being served in here http://www.atforestry.com/, try it and let us know what you think!
 
 <p align="center">
     <img src="./assets/atforestry_app_gif.gif" alt="isolated" width="500"/>
@@ -66,7 +65,7 @@ Our application is being served in here http://www.atforestry.com/:
 We have leveraged different tools to set up our MLOPs pipelines:
 
 - **Kubeflow**: To set-up training pipelines
-- **Grafana and Prometheus**:To monitor Performance
+- **Grafana and Prometheus**:To monitor performance
 - **Docker**: To containerize our services
 - **Kubernetes**: For container orchestration
 - **Nginx and VueJS**: For the web application
