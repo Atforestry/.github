@@ -60,7 +60,7 @@ Our application is being served in here http://www.atforestry.com/, try it and l
 </p>
 
 
-## Architecure Used
+## Architecture Used
 
 We have leveraged different tools to set up our MLOPs pipelines:
 
