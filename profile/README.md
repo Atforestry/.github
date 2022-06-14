@@ -52,30 +52,32 @@ The implementation of the model can be find in the [notebooks](/notebooks/) fold
 
 
 
-## Preliminary Results
+## Web App
 
-Exploiting FastAPI capabilities, we have set an initial [API](./api/) which runs an inference service to predict cover land types, using a preliminary model trained with just one epoch run:
+Our application is being served in here http://www.atforestry.com/:
 
 <p align="center">
     <img src="./assets/atforestry_app_gif.gif" alt="isolated" width="500"/>
 </p>
 
 
-## To Be Done
+## Architecure Used
 
-During the next 5 weeks, atforestry team will be focused on the below tasks:
+We have leveraged different tools to set up our MLOPs pipelines:
 
-- **Training**: Improve the VGG16 model increasing the epochs runs
-- **Inference Services**: API to compare the cover land at different points in time
-- **Feature Store**: Set up a database to store the data
-- **Data Pipelines**: Create pipelines to continuously fetch Planet API data
-- **Training Pipelines**: Develop Training Pipelines to retrain model if inferenced tags are not accurate
-- **Web Application**: Create a web interface to interact with the APIs
-- **Other MLOps Tasks**: Set up Model Registry and Monitoring tools
+- **Kubeflow**: To set-up training pipelines
+- **Grafana and Prometheus**:To monitor Performance
+- **Docker**: To containerize our services
+- **Kubernetes**: For container orchestration
+- **Nginx and VueJS**: For the web application
+- **FastAPI**: As our main RestAPI framework
+- **Github Actions**: For CI/CD
+- **DVC**: For model versioning
+- **GCP**: For storage and deployments
 
-
-
-
+<p align="center">
+    <img src="./assets/stack_view.JPG" alt="isolated" width="500"/>
+</p>
 
 
 
