@@ -11,6 +11,10 @@ Tracking deforestation is an essential problem to resolve to fight global warmin
 
 Our MLOps architecture has been set to predict deforestation based upon 2 simple steps: a) classify the type of cover land and (b) compare the cover land at different points in time to detect changes on the surface. 
 
+## Demo Day
+
+Watch out our presentation on FourthBrain demo day in here :rocket: : [Demo Day](https://www.youtube.com/watch?v=e7OUu6tGDNQ&list=PL6iGeSA2pl0UHPom0HfVBKkPbK_V69zTP)
+
 ## Classifying Cover Land
 
 For this task, we are using the [Planet: Understanding the Amazon from Space](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space)  Kaggle competition [dataset](https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data). Additionally, we are leveraging the work done by [EKami](https://github.com/EKami/planet-amazon-deforestation), using a VGG16 convolutional model pre-trained with the Imagenet dataset and retrained to predict the type of cover land on top of the satellite images.
